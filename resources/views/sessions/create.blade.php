@@ -25,6 +25,13 @@
 						<input type="password" class="form-control" name="password" id="password">
 					</div>
 
+					<div class="form-group">
+						<div class="form-check">
+							<input type="checkbox" name="remember" id="remember" class="form-check-input" />
+							<label for="remember">记住我</label>
+						</div>
+					</div>
+
 					<button class="btn btn-primary" type="submit">登录</button>
 
 
