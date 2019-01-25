@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="">
 
-<head>
+<head>	
 	<meta charset="UTF-8">
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<title>@yield('title', 'Weibo App') - Laravel 入门教程</title>
-
 	<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 
@@ -21,6 +21,8 @@
 		</div>
 
 	</div>
+
+	<script src="{{ mix('js/app.js') }}"></script>
 
 </body>
 
